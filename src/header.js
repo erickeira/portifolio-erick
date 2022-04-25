@@ -11,11 +11,9 @@ function Header() {
   return (
       <header>
         <div className="caixa-header">
-        <h1 ><img className="logo" src={Logo }/></h1> 
-        {/* <h1 >Erick Almeida</h1> */}
+        <h1 ><a href=''><img className="logo" src={Logo }/></a></h1> 
         <nav>
 					<ul>
-            
 						<li><a href="#inicio" onClick={handleSubmit}>Início</a></li>
 						<li><a href="#sobre">Sobre</a></li>
             <li><a href="#skills">Skills</a></li>
